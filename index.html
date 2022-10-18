@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: black;
+        }
+
+        :root{
+            --brain: "M.51,247.5l10-35,23-61,54-71,34-31,44-24,134-25,119,6,54,26,106,68,39,53,32,88-12,48-17,29,9,56-26,41-44-1-35,27-28,37-40,60,13,21-15,59-25-61-32-31-7-46-32-60-78-35-41,25-22-21-42,11-29-58-43-5-70,5-23-45Z"
+        }
+
+        .brain-bg{
+            clip-path: path(var(--brain));
+           
+        }
+
+        #particles-js{
+            width: 80%;
+            height: 80vh;
+            background: #000;
+            /* clip-path: path(var(--brain));  */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+
+            </div>
+            <div class="col-lg-8 brain-bg">
+                    <div id='particles-js'>
+
+                    </div>
+                
+            </div>
+            <div class="col-lg-2">
+
+            </div>
+        </div>
+    </div>
+
+
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650.04 620.09"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style></defs><path class="cls-1" d="M.51,247.5l10-35,23-61,54-71,34-31,44-24,134-25,119,6,54,26,106,68,39,53,32,88-12,48-17,29,9,56-26,41-44-1-35,27-28,37-40,60,13,21-15,59-25-61-32-31-7-46-32-60-78-35-41,25-22-21-42,11-29-58-43-5-70,5-23-45Z"/></svg>
+    
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

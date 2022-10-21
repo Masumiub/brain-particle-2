@@ -1,60 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Brain</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <style>
-        body{
-            background-color: black;
-        }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap" rel="stylesheet">
 
-        :root{
-            --brain: "M.51,247.5l10-35,23-61,54-71,34-31,44-24,134-25,119,6,54,26,106,68,39,53,32,88-12,48-17,29,9,56-26,41-44-1-35,27-28,37-40,60,13,21-15,59-25-61-32-31-7-46-32-60-78-35-41,25-22-21-42,11-29-58-43-5-70,5-23-45Z"
-        }
-
-        .brain-bg{
-            clip-path: path(var(--brain));
-           
-        }
-        .container{
-            margin-top: 150px;
-        }
-        #particles-js{
-            width: 80%;
-            height: 80vh;
-            background: #000;
-            /* clip-path: path(var(--brain));  */
-        }
-
-    </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-white"  style="padding: 20px;">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-2">
+      <i class="fa fa-mixcloud fa-2x" style="color: white;"></i>
+      <a class="navbar-brand" style="color:rgb(200, 10, 73); font-family: 'Montserrat' ;" href="#">SPARK THOUGHT</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="flex-row-reverse collapse navbar-collapse" id="navbarNav" >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com/">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.wikipedia.org/">Results</a>
+          </li>
 
-            </div>
-            <div class="col-lg-8 brain-bg">
-                    <div id='particles-js'>
-
-                    </div>
-                
-            </div>
-            <div class="col-lg-2">
-
-            </div>
-        </div>
+          <li>
+            <button class="btn" style="border-radius: 90px; background-color:rgb(200, 10, 73); color: white " type="submit">CLIENT LOGIN</button>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
 
-    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650.04 620.09"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style></defs><path class="cls-1" d="M.51,247.5l10-35,23-61,54-71,34-31,44-24,134-25,119,6,54,26,106,68,39,53,32,88-12,48-17,29,9,56-26,41-44-1-35,27-28,37-40,60,13,21-15,59-25-61-32-31-7-46-32-60-78-35-41,25-22-21-42,11-29-58-43-5-70,5-23-45Z"/></svg>
-    
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+
+
+<!--**********************-->
+<!--    header starts     -->
+<!--**********************-->
+<div class="box">
+  <!-- tsParticles container -->
+  <div id="tsparticles" style="margin-top: -150px; " class="img-fluid">
+
+<!--  <div class="herotext HeaderSectionText">
+
+  <h1 class="animate__animated animate__fadeInDownBig" style="font-size: 40pt;font-weight: 600; color:rgb(27, 27, 27); font-family: 'Montserrat', sans-serif; ">Knowledge Management</h1>
+  <h1 class="animate__animated animate__fadeInDownBig" style="font-size: 40pt;font-weight: 600; color:rgb(27, 27, 27); font-family: 'Montserrat', sans-serif; ">Consultancy</h1>
+  
+  <p>Striking an expart match between client Knowledge Management(KM)</p>
+  <p>needs and customised KM solutions</p>
+
+  <div class="animate__animated animate__fadeInUp" style="margin-top: 20px;color:rgb(200, 10, 73); ">
+  <h5>LEARN MORE +</h5>
+  </div> -->
+  
+  </div> 
+
+</div>
+
+</div>
+<!--**********************-->
+<!--    header ends     -->
+<!--**********************-->
+<!--
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.03 109.88"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.31px;}</style></defs><path class="cls-1" d="M72,46.37l-18.62-1L59.11,29l-7.43-7.4L64.84,4.7m55.3,38.63M42.42,70.66.15,38.61l5.93,19,16,10.92,9.81-4,7.55,10.2,11.69,4.41,14,30.39L78.66,81.16,96,82.41,110.88,79l4.36-10.43-3.09-4.88,11.61-6.08,3.11-17.78L106.16,14.34,75.3.16,35.2,1.74,12.18,19l-11,17.36s4,1.63,6.06-1M39.09,6.87V21.7H16.87l-5,19M81,60.7H48.87L25.62,35.8,11.87,49.7m68,19.81,30-12.5-8-17.64L91.87,42.7,81,22.45l6.84-2.66,5.08,9.91,12.48-4.62M55.4,78.57,65.87,95.7,61.82,93l3.05,10.73L72,88M106.3,69.51,93.87,74.7l-21,2-2,5m-23-13,11-2,6,7m-24-33,9-8-7.45-3.24L30.87,31.7m17-20.12-3,11.12m35-11.12L67.07,22.7l7.8,15,4-1.9,7,15.9"/></svg>
+-->
+
+<!-- partial -->
+<script src='https://cdn.jsdelivr.net/npm/pathseg@1.2.0/pathseg.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.min.js'></script><script  src="./script.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

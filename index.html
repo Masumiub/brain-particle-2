@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" >
+
 <head>
   <meta charset="UTF-8">
   <title>Brain</title>
+
+  <!-- Bootstrap CDN CSS Link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+  <!-- Google Font CDN Link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap" rel="stylesheet">
 
+  <!-- External CSS File Link-->
   <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
+<!--*****************************-->
+<!--     Sample Navbar starts    -->
+<!--*****************************-->
   <nav class="navbar navbar-expand-lg navbar-light bg-white"  style="padding: 20px;">
     <div class="container">
       <i class="fa fa-mixcloud fa-2x" style="color: white;"></i>
+
+      <!--  Put Your Logo Here  -->
       <a class="navbar-brand" style="color:rgb(200, 10, 73); font-family: 'Montserrat' ;" href="#">SPARK THOUGHT</a>
       
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="flex-row-reverse collapse navbar-collapse" id="navbarNav" >
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -35,54 +48,67 @@
           <li class="nav-item">
             <a class="nav-link" href="https://www.wikipedia.org/">Results</a>
           </li>
-
           <li>
             <button class="btn" style="border-radius: 90px; background-color:rgb(200, 10, 73); color: white " type="submit">CLIENT LOGIN</button>
           </li>
         </ul>
       </div>
+
     </div>
   </nav>
+<!--*****************************-->
+<!--      Sample Navbar Ends     -->
+<!--*****************************-->
 
 
 
+<!--*********************************-->
+<!--    Sample Heroheader starts     -->
+<!--*********************************-->
 
-<!--**********************-->
-<!--    header starts     -->
-<!--**********************-->
 <div class="box">
-  <!-- tsParticles container -->
-  <div id="tsparticles" style="margin-top: -150px; " class="img-fluid">
 
-<!--  <div class="herotext HeaderSectionText">
+  <!-- BrainParticles container Starts-->
+  <div id="brainparticles" style="margin-top: -150px; " class="img-fluid">
 
-  <h1 class="animate__animated animate__fadeInDownBig" style="font-size: 40pt;font-weight: 600; color:rgb(27, 27, 27); font-family: 'Montserrat', sans-serif; ">Knowledge Management</h1>
-  <h1 class="animate__animated animate__fadeInDownBig" style="font-size: 40pt;font-weight: 600; color:rgb(27, 27, 27); font-family: 'Montserrat', sans-serif; ">Consultancy</h1>
+  <!--    <div class="herotext HeaderSectionText">
+
+          <h1 style="font-size: 40pt;font-weight: 600; color:rgb(27, 27, 27); font-family: 'Montserrat', sans-serif; ">Knowledge Management</h1>
+          <h1 style="font-size: 40pt;font-weight: 600; color:rgb(27, 27, 27); font-family: 'Montserrat', sans-serif; ">Consultancy</h1>
+          
+          <p>Striking an expart match between client Knowledge Management(KM)</p>
+          <p>needs and customised KM solutions</p>
+
+          <div style="margin-top: 20px;color:rgb(200, 10, 73); ">
+          <h5>LEARN MORE +</h5>
+          </div> 
+      
+      </div> -->
   
-  <p>Striking an expart match between client Knowledge Management(KM)</p>
-  <p>needs and customised KM solutions</p>
-
-  <div class="animate__animated animate__fadeInUp" style="margin-top: 20px;color:rgb(200, 10, 73); ">
-  <h5>LEARN MORE +</h5>
-  </div> -->
-  
-  </div> 
+  </div>
+  <!-- BrainParticles container Ends-->
 
 </div>
+<!--*********************************-->
+<!--    Sample Heroheader Ends     -->
+<!--*********************************-->
 
-</div>
-<!--**********************-->
-<!--    header ends     -->
-<!--**********************-->
+
+<!--  Reference Brain Path, Find d= value & Put it into 'script.js' file(in 'data' parameter)  -->
 <!--
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.04 112.94"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.31px;}</style></defs><path class="cls-1" d="M72,46.37l-18.62-1L59.11,29l-7.43-7.4L64.84,4.7m55.3,38.63M42.42,70.66.15,38.61l5.93,19,16,10.92,9.81-4,7.55,7.2,11.69,7.41,14,33.39L78.87,75.7h27l7-9-7-6,17.89-3.05,5.11-18.78L106.16,14.34,75.3.16,35.2,1.74,12.18,19l-11,17.36s4,1.63,6.06-1M39.09,6.87V21.7H16.87l-5,19M81,60.7H48.87L25.62,35.8,11.87,49.7m79,13,6-8,4.94-15.33L91.87,42.7,81,22.45l6.84-2.66,5.08,9.91,12.48-4.62M55.4,78.57,64.87,95.7,61.82,93l3.05,10.73,5-16m21-19-20,3v10m-23-13,11-2,6,7m-24-33,9-8-7.45-3.24L30.87,31.7m17-20.12-3,11.12m35-11.12L67.07,22.7l7.8,15,4-1.9,7,15.9m21.55-16.62,12.45,5.62-12,10"/></svg>
 -->
 
-<!-- partial -->
+<!-- Particle Library JS Script File Links, must include in your index.html file -->
 <script src='https://cdn.jsdelivr.net/npm/pathseg@1.2.0/pathseg.min.js'></script>
-<script src='https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.min.js'></script>
 
+<!-- BrainParticle JS Script Parameter File, must include in your index.html file -->
+<script  src="./script.js"></script>
 
+<!-- Bootstrap CDN JS Link -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
 </body>
 </html>

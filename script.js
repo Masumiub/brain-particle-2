@@ -80,7 +80,7 @@ tsParticles.load("brainparticles", {
         sync: false
       },
       random: false,
-      value: 4
+      value: 4 // Particle Size
     }
   },
   polygon: {

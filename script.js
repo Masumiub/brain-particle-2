@@ -14,7 +14,7 @@ tsParticles.load("brainparticles", {
       bubble: {
         distance: 80,
         duration: 2,
-        opacity: 0.5, // OnHover Bubble Opacity
+        opacity: 0.2, // OnHover Bubble Opacity
         color: {
           value: "rgb(200, 10, 73)" // OnHover Bubble Color 
         },
